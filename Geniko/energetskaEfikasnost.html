@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&family=Ubuntu+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Neucha&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&family=Ubuntu+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- ASSETS -->
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link href="/assets/script.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>Geniko</title>
+
+    <style>
+        @font-face {
+            font-family: "genikoFont";
+            src: url("fonts/genikoFont.ttf");
+        }
+
+        .heroFont {
+            font-family: "genikoFont";
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Start of container -->
+    <div class="container">
+
+
+        <!-- NAVBAR  -->
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" style="color: rgb(255, 246, 229);" href="index.html">
+                <!-- Add logo with size of 90*80 -->
+                <img src="" width="90" height="80" alt="Logo here" />
+            </a>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" style="color: rgb(255, 246, 229)">Дома
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(255, 246, 229)" href="zaNas.html">За Нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(255, 246, 229)" href="uslugi.html">Услуги</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: rgb(255, 246, 229)" href="#"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Проекти
+                        </a>
+                        <div class="dropdown-menu" style="background-color:#1E1E1E; " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-white" href="proektiranjeNadzorRevizija.html">Проектирање,
+                                надзор и
+                                ревизија</a>
+                            <a class="dropdown-item text-white" href="urbanistickoPlaniranje.html">Урбанистичко
+                                планирање</a>
+                            <a class="dropdown-item text-white" href="energetskaEfikasnost.html">Енергетска
+                                ефикасност</a>
+                            <a class="dropdown-item text-white" href="procenki.html">Проценки</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(255, 246, 229)" href="kariera.html">Кариера</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(255, 246, 229)" href="kontakt.html">Контакт</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- I need this for the dropdown menu in the navbar -->
+        <style>
+            .dropdown-item:hover {
+                background-color: #333;
+                color: white;
+            }
+        </style>
+        <hr style="border-color: rgb(255, 246, 229)" />
+        <!-- END OF NAVBAR -->
+
+        <h2 class="heroFont" style="letter-spacing: 5px; color: rgb(255, 246, 229);font-weight:500;
+    margin-left:100px; margin-top:200px;">ENERGETSKA<br> EFIKASNOST</h2>
+        <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:50px;" />
+
+        <ul style="margin-left:80px;">
+            <li class="text-white"><u>Елаборати за енергетска ефикасност</u></li>
+        </ul>
+
+        <div class="text-white row" style="margin-left:50px; font-size:14px;">
+            <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                    <li>Изработуваме елаборати за енергетска ефикасност на сите видови објекти.</li>
+                </ul>
+            </div>
+            <!-- <div class="col-md-3">
+          <ul style="list-style:none">
+            <li>Фекална канализација</li>
+            <li>Атмосферска канализација</li>
+            <li>Пречистителни станици</li>
+            <li>Пумпни станици</li>
+          </ul>
+        </div> -->
+            <!-- <div class="col-md-3">
+          <ul style="list-style:none">
+            <li>Далекуводи</li>
+            <li>Регулација на речни корита</li>
+            <li>Депонии</li>
+            <li>ПТТ и оптички кабли</li>
+          </ul>
+        </div> -->
+        </div>
+        <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:20px;" />
+
+        <ul class="text-white" style="margin-left:80px;">
+            <li><u>Потврди за енергетска ефикасност</u></li>
+        </ul>
+
+        <div class="text-white row" style="margin-left:50px; font-size:14px;">
+            <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                    <li>Издаваме потрврди за енергетска ефикасност со која се потврдува дека <br>
+                        минималните барања за енергетска ефикасност кои се содржина во основниот<br>
+                        проект се во согласност со минималните барања за енергетска ефикасност.</li>
+                </ul>
+            </div>
+            <!-- <div class="col-md-3">
+          <ul style="list-style:none">
+            <li>Фекална канализација</li>
+            <li>Атмосферска канализација</li>
+            <li>Пречистителни станици</li>
+            <li>Пумпни станици</li>
+          </ul>
+        </div> -->
+            <!-- <div class="col-md-3">
+          <ul style="list-style:none">
+            <li>Далекуводи</li>
+            <li>Регулација на речни корита</li>
+            <li>Депонии</li>
+            <li>ПТТ и оптички кабли</li>
+          </ul>
+        </div> -->
+        </div>
+
+        <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:30px;" />
+
+        <ul style="margin-left:80px;">
+            <li class="text-white"><u>Енергетска контрола</u></li>
+        </ul>
+
+        <div class="text-white row" style="margin-left:50px; font-size:14px;">
+            <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                    <li>Вршиме енергетска контрола, со која се врши проверка на имплементацијата на одредбите од<br>
+                        правилникот за енергетски карактеристики на зградите согласно правилникот за енергетска
+                        ефикасност.<br>
+                        Предмет на енергетската контрола се згради и градежни единици со сите помошни постојки и
+                        опрема,<br>
+                        вклучувајќи и системи за греење и климатизација, како и индустриски процеси кои се одвиваат во
+                        нив.<br>
+                        Со енергетската контрола се утврдува ефикасноста при користење наенергијата, како и моностите
+                        за<br>
+                        намалување на потрошувачката на енергија и осварување на заштеди.</li>
+                </ul>
+            </div>
+            <!-- <div class="col-md-3">
+          <ul style="list-style:none">
+            <li>Фекална канализација</li>
+            <li>Атмосферска канализација</li>
+            <li>Пречистителни станици</li>
+            <li>Пумпни станици</li>
+          </ul>
+        </div> -->
+            <!-- <div class="col-md-3">
+          <ul style="list-style:none">
+            <li>Далекуводи</li>
+            <li>Регулација на речни корита</li>
+            <li>Депонии</li>
+            <li>ПТТ и оптички кабли</li>
+          </ul>
+        </div> -->
+        </div>
+
+        <h2 class="heroFont" style="color:rgb(255, 246, 229); margin-left:90px; margin-top:100px; margin-bottom:50px;">
+            PROEKTI</h2>
+
+
+      <!-- Accordion -->
+
+      <div class="accordion" id="accordionExample" style="margin-left:100px;">
+        <div class="card" style="border-top:none; border-right:none; border-left:none; border-bottom: 1px solid white">
+          <div class="card-header" id="headingOne" style="background-color:#1E1E1E;">
+            <div class="d-flex align-items-center justify-content-between">
+              <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Проект #1
+              </button>
+              <span>
+
+                <i class="fas fa-chevron-down text-white" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne"></i>
+              </span>
+            </div>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body text-white" style="background-color: #6E3F48;">
+              <h3 style="margin-top:100px; margin-left:50px;">Име на проектот</h3>
+              <p style="margin-top:10px; margin-left:50px; font-size:14px;">Категорија - Подкатегорија</p>
+              <p style="margin-top:60px; margin-bottom:100px; margin-left:50px;">Тука може краток опис на проектот<br> што ќе зафати барем 2
+                реда текст за<br> подобро да изгледа</p>
+              <!-- Carousel start -->
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="/kuka-zarko/1.jpg" alt="First slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/2.jpg" alt="Second slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/3.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/4.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/5.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/6.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- Carousel end -->
+            </div>
+          </div>
+        </div>
+        <div class="card" style="border-top:none; border-right:none; border-left:none; border-bottom: 1px solid white">
+          <div class="card-header" id="headingTwo" style="background-color:#1E1E1E;">
+            <div class="d-flex align-items-center justify-content-between">
+              <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                Проект #2
+              </button>
+              <span>
+
+                <i class="fas fa-chevron-down text-white" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="true" aria-controls="collapseTwo"></i>
+              </span>
+            </div>
+          </div>
+
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body text-white" style="background-color: #6E3F48;">
+              <h3 style="margin-top:100px; margin-left:50px;">Име на проектот</h3>
+              <p style="margin-top:10px; margin-left:50px; font-size:14px;">Категорија - Подкатегорија</p>
+              <p style="margin-top:60px; margin-bottom:100px; margin-left:50px;">Тука може краток опис на проектот<br> што ќе зафати барем 2
+                реда текст за<br> подобро да изгледа</p>
+              <!-- Carousel start -->
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="/kuka-zarko/1.jpg" alt="First slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/2.jpg" alt="Second slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/3.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/4.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/5.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/6.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- Carousel end -->
+            </div>
+          </div>
+        </div>
+        <div class="card" style="border-top:none; border-right:none; border-left:none; border-bottom: 1px solid white">
+          <div class="card-header" id="headingThree" style="background-color:#1E1E1E;">
+            <div class="d-flex align-items-center justify-content-between">
+              <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="true" aria-controls="collapseThree">
+                Проект #3
+              </button>
+              <span>
+
+                <i class="fas fa-chevron-down text-white" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="true" aria-controls="collapseThree"></i>
+              </span>
+            </div>
+          </div>
+
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body text-white" style="background-color: #6E3F48;">
+              <h3 style="margin-top:100px; margin-left:50px;">Име на проектот</h3>
+              <p style="margin-top:10px; margin-left:50px; font-size:14px;">Категорија - Подкатегорија</p>
+              <p style="margin-top:60px; margin-bottom:100px; margin-left:50px;">Тука може краток опис на проектот<br> што ќе зафати барем 2
+                реда текст за<br> подобро да изгледа</p>
+              <!-- Carousel start -->
+              <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="photos/gradeznistvo.jpg" alt="First slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="photos/gradeznistvo.jpg" alt="Second slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="photos/gradeznistvo.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- Carousel end -->
+            </div>
+          </div>
+        </div>
+        <div class="card" style="border-top:none; border-right:none; border-left:none; border-bottom: 1px solid white">
+          <div class="card-header" id="headingFour" style="background-color:#1E1E1E;">
+            <div class="d-flex align-items-center justify-content-between">
+              <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="true" aria-controls="collapseFour">
+                Проект #4
+              </button>
+              <span>
+
+                <i class="fas fa-chevron-down text-white" data-toggle="collapse" data-target="#collapseFour"
+                  aria-expanded="true" aria-controls="collapseFour"></i>
+              </span>
+            </div>
+          </div>
+
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body text-white" style="background-color: #6E3F48;">
+              <h3 style="margin-top:100px; margin-left:50px;">Име на проектот</h3>
+              <p style="margin-top:10px; margin-left:50px; font-size:14px;">Категорија - Подкатегорија</p>
+              <p style="margin-top:60px; margin-bottom:100px; margin-left:50px;">Тука може краток опис на проектот<br> што ќе зафати барем 2
+                реда текст за<br> подобро да изгледа</p>
+              <!-- Carousel start -->
+              <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators4" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators4" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators4" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="/kuka-zarko/1.jpg" alt="First slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/2.jpg" alt="Second slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/3.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/4.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/5.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/6.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- Carousel end -->
+            </div>
+          </div>
+        </div>
+        <div class="card" style="border-top:none; border-right:none; border-left:none; border-bottom: 1px solid white">
+          <div class="card-header" id="headingFive" style="background-color:#1E1E1E;">
+            <div class="d-flex align-items-center justify-content-between">
+              <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseFive"
+                aria-expanded="true" aria-controls="collapseFive">
+                Проект #5
+              </button>
+              <span>
+
+                <i class="fas fa-chevron-down text-white" data-toggle="collapse" data-target="#collapseFive"
+                  aria-expanded="true" aria-controls="collapseFive"></i>
+              </span>
+            </div>
+          </div>
+
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body text-white" style="background-color: #6E3F48;">
+              <h3 style="margin-top:100px; margin-left:50px;">Име на проектот</h3>
+              <p style="margin-top:10px; margin-left:50px; font-size:14px;">Категорија - Подкатегорија</p>
+              <p style="margin-top:60px; margin-bottom:100px; margin-left:50px;">Тука може краток опис на проектот<br> што ќе зафати барем 2
+                реда текст за<br> подобро да изгледа</p>
+              <!-- Carousel start -->
+              <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators5" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators5" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators5" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="/kuka-zarko/1.jpg" alt="First slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/2.jpg" alt="Second slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/3.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/4.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/5.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/kuka-zarko/6.jpg" alt="Third slide"
+                      style="height: 492px; width: 877px; object-fit: cover;">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- Carousel end -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Kontakt -->
+
+        <h5 style="color: rgb(255, 246, 229); margin-bottom: 1px; margin-top:150px;">
+            Контакт
+            <hr style="border-color: rgb(255, 246, 229)" />
+        </h5>
+
+        <h1 style="color: rgb(255, 246, 229); font-weight:700;">
+            Стапи во контакт <bold style="color: #FFDD9B; font-weight:700;">со нас</bold> -
+        </h1>
+
+        <h1 style="color: rgb(255, 246, 229); font-weight:700; margin-bottom:100px;">
+            Добиј го <bold style="color: #FFDD9B; font-weight:700;">идеалното</bold> решение
+        </h1>
+
+        <!-- FOOTER  -->
+
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center pb-3">
+                <li class="nav-item text-white text-center">
+                    <p class="px-5">
+                        <bold>Телефон</bold><br>
+                    </p>
+                    <p class="px-5 text-muted text-center">070 35 67 76</p>
+                    <p class="px-5 text-muted text-center">070 20 89 98</p>
+                    <p class="px-5 text-muted text-center">048 41 19 53</p>
+
+                </li>
+                <li class="nav-item text-white text-center">
+                    <p class="px-5">
+                        <bold>Адреса</bold>
+                    </p>
+                    <p class="px-5 text-muted text-center">Ул. „Андон Слабејко“ <br>бр. 467500 - Прилеп,<br> Македонија
+                    </p>
+                </li>
+                <li class="nav-item text-white text-center">
+                    <p class="px-5">
+                        <bold>Маил</bold>
+                    </p>
+                    <p class="px-5 text-muted text-center">genpro@t-home.mk</p>
+                    <p class="px-5 text-muted text-center">genprodoo@gmail.com
+                    </p>
+                </li>
+            </ul>
+            <p class="text-center text-muted" style="margin-top:80px;">© 2022 Генико. Сите права се задржани </p>
+
+        </footer>
+        <!-- End of footer -->
+
+        <!-- End of Kontakt -->
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

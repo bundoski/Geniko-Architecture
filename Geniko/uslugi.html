@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&family=Ubuntu+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Neucha&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600&family=Ubuntu+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- ASSETS -->
+  <link rel="stylesheet" href="/assets/style.css" />
+  <link href="/assets/script.js" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <title>Geniko</title>
+
+  <style>
+    @font-face {
+      font-family: "genikoFont";
+      src: url("fonts/genikoFont.ttf");
+    }
+
+    .heroFont {
+      font-family: "genikoFont";
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Start of container -->
+  <div class="container">
+
+
+   <!-- NAVBAR  -->
+   <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" style="color: rgb(255, 246, 229);" href="index.html">
+      <!-- Add logo with size of 90*80 -->
+      <img src="" width="90" height="80" alt="Logo here" />
+    </a>
+
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" style="color: rgb(255, 246, 229)">Дома
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: rgb(255, 246, 229)" href="zaNas.html">За Нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: rgb(255, 246, 229)" href="uslugi.html">Услуги</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: rgb(255, 246, 229)" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Проекти
+          </a>
+          <div class="dropdown-menu" style="background-color:#1E1E1E; " aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-white" href="proektiranjeNadzorRevizija.html">Проектирање, надзор и
+              ревизија</a>
+            <a class="dropdown-item text-white" href="urbanistickoPlaniranje.html">Урбанистичко планирање</a>
+            <a class="dropdown-item text-white" href="energetskaEfikasnost.html">Енергетска ефикасност</a>
+            <a class="dropdown-item text-white" href="procenki.html">Проценки</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: rgb(255, 246, 229)" href="kariera.html">Кариера</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: rgb(255, 246, 229)" href="kontakt.html">Контакт</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- I need this for the dropdown menu in the navbar -->
+  <style>
+    .dropdown-item:hover {
+      background-color: #333;
+      color: white;
+    }
+  </style>
+  <hr style="border-color: rgb(255, 246, 229)" />
+  <!-- END OF NAVBAR -->
+
+    <!-- Hero section -->
+
+
+    <h1 class="heroFont" style="color: rgb(255, 246, 229); margin-left:150px; margin-top:250px;">
+      <bold style="color: #FFDD9B">NAPREDNO</bold> RAZMISLUVAWE
+    </h1>
+
+    <h1 class="heroFont" style="color: rgb(255, 246, 229); margin-left:150px; margin-bottom:200px;">
+      EKSPERTI ZA <bold style="color: #FFDD9B">GRADE|NI{TVO</bold>
+    </h1>
+
+    <div class="row text-center">
+
+
+      <!-- Team item -->
+      <div class="col-md-4 mb-5">
+        <div class="bg-darkrounded py-5 px-4">
+          <img src="photos/pngtree-flower-floral-line-beauty-premium-simple-logo-template-png-image_4227911.jpg" alt=""
+            width="100" class="rounded-img mb-3 shadow-sm" />
+          <h5 class="heroFont" class="mb-3" style="color: #FFDD9B; margin-top:20px; margin-bottom:30px;">TEKST OVDE</h5>
+          <p class="small text-muted">Генико ДОО Прилеп е формирано <br> далечната 1994 година но активно почнува <br>
+            со работа од 1997 година.</p>
+        </div>
+      </div>
+      <!-- End -->
+
+      <!-- Team item -->
+      <div class="col-md-4 mb-5">
+        <div class="bg-darkrounded py-5 px-4">
+          <img src="photos/pngtree-flower-floral-line-beauty-premium-simple-logo-template-png-image_4227911.jpg" alt=""
+            width="100" class="rounded-img mb-3 shadow-sm" />
+          <h5 class="heroFont" class="mb-3" style="color: #FFDD9B; margin-top:20px; margin-bottom:30px;">TEKST OVDE</h5>
+          <p class="small text-muted">Генико ДОО Прилеп е формирано <br> далечната 1994 година но активно почнува <br>
+            со работа од 1997 година.</p>
+        </div>
+      </div>
+      <!-- End -->
+
+
+      <!-- Team item -->
+      <div class="col-md-4 mb-5">
+        <div class="bg-darkrounded py-5 px-4">
+          <img src="photos/pngtree-flower-floral-line-beauty-premium-simple-logo-template-png-image_4227911.jpg" alt=""
+            width="100" class="rounded-img mb-3 shadow-sm" />
+          <h5 class="heroFont" class="mb-3" style="color: #FFDD9B; margin-top:20px; margin-bottom:30px;">TEKST OVDE</h5>
+          <p class="small text-muted">Генико ДОО Прилеп е формирано <br> далечната 1994 година но активно почнува <br>
+            со работа од 1997 година.</p>
+        </div>
+      </div>
+      <!-- End -->
+    </div>
+    <!-- End hero -->
+
+    <!-- Referenca -->
+
+    <h5 style="color: rgb(255, 246, 229); margin-bottom: 6%; margin-top:50px;">
+      Референца
+      <hr style="border-color: rgb(255, 246, 229)" />
+    </h5>
+
+    <div class="row text-white">
+      <div class="col-md-6 mb-5">
+        Некој краток текст околу референцата што би зафатил <br>неколку редови можи да биди<br> 3 или 4 реда текст
+      </div>
+
+      <div class="col-md-6">
+        <div class="text-center" style="margin-bottom:20px;">Референца Генико</div>
+        <div class="text-center"><button class="btn btn-sm btn-outline-dark text-white"
+            style="border-color:#FFDD9B">Превземи референца</button></div>
+      </div>
+    </div>
+
+    <!-- END referenca -->
+
+
+    <h3 class="text-white" style="margin-top:100px; margin-bottom:40px;">Нашите Услуги</h3>
+
+    <!-- Services -->
+
+    <!-- If left default, the collapsible elements closed from bottom to top, i want them to close
+          from top to bottom so i made this simple animation. -->
+    <style>
+      .multi-collapse.show {
+        transform-origin: top center;
+        transition: transform 0.2s ease-out;
+        transform: scaleY(1);
+      }
+
+      .multi-collapse {
+        transform-origin: top center;
+        transition: transform 0.2s ease-in;
+        transform: scaleY(0);
+      }
+    </style>
+
+    <!-- For some reason, when clicked, the last 2 buttons scroll automatically to the content, so i add the next code to prevent it -->
+
+    <style>
+      .no-scroll {
+        overflow: hidden;
+      }
+
+      .no-scroll .uslugiBtn:focus {
+        outline: none;
+      }
+    </style>
+
+    <script>
+      $(document).ready(function () {
+        $('.uslugiBtn').click(function (event) {
+          event.preventDefault();
+          $('.multi-collapse').collapse('hide');
+          $($(this).data('target')).collapse('show');
+        });
+      });
+      $(document).on('click', function (event) {
+        if ($(event.target).closest('.multi-collapse.show').length === 0) {
+          $('body').removeClass('no-scroll');
+        }
+      });
+
+      $('.multi-collapse').on('shown.bs.collapse', function () {
+        $('body').addClass('no-scroll');
+      });
+    </script>
+    <div class="container" style="margin-left:-30px;">
+      <div class="d-flex flex-wrap justify-content-between">
+        <div class="col-md-3 mb-3">
+          <a class="uslugiBtn btn text-white btn-outline-dark active"
+            style="background-color:#1E1E1E;border-color:#6E3F48; margin-right:-29px;" data-toggle="collapse"
+            href="#multiCollapseExample1" role="button" aria-expanded="false"
+            aria-controls="multiCollapseExample1">ПРОЕКТИРАЊЕ, НАДЗОР И РЕВИЗИЈА</a>
+        </div>
+        <div class="col-md-3 mb-3">
+          <a class="uslugiBtn btn text-white btn-outline-dark active"
+            style="background-color:#1E1E1E;border-color:#6E3F48;  margin-right:-29px;" data-toggle="collapse"
+            href="#multiCollapseExample2" role="button" aria-expanded="false"
+            aria-controls="multiCollapseExample2">УРБАНИСТИЧКО ПЛАНИРАЊЕ</a>
+        </div>
+        <div class="col-md-3 mb-3">
+          <button class="uslugiBtn no-scroll btn text-white btn-outline-dark active flex-grow-1"
+            style="background-color:#1E1E1E;border-color:#6E3F48; width:112.2%;" data-toggle="collapse"
+            data-target="#multiCollapseExample3" role="button" aria-expanded="false"
+            aria-controls="multiCollapseExample3">ЕНЕРГЕТСКА <br> ЕФИКАСНОСТ</a>
+        </div>
+        <div class="col-md-3 mb-3">
+          <button class="uslugiBtn no-scroll btn text-white btn-outline-dark active"
+            style="background-color:#1E1E1E;border-color:#6E3F48; padding: 18px; text-align: center; display: inline-block; width: 100%;"
+            data-toggle="collapse" data-target="#multiCollapseExample4" role="button" aria-expanded="false"
+            aria-controls="multiCollapseExample4">ПРОЦЕНКИ</a>
+        </div>
+      </div>
+      <div class="col" style="margin-top:-15px;">
+        <div class="collapse show multi-collapse" id="multiCollapseExample1">
+          <div class="card-body text-white" style="background-color: #6E3F48;">
+
+            <h3 class="heroFont" style="margin-left:100px; margin-top:50px;">PROEKTIRAWE, NADZOR<br>I REVIZIJA</h3>
+            <hr
+              style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:50px; margin-bottom:30px;" />
+
+            <ul style="margin-left:80px;">
+              <li>Инфраструктурни објекти</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Патишта</li>
+                  <li>Мостови</li>
+                  <li>Сообрајќајници</li>
+                  <li>Водовод</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div>
+            </div>
+            <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:15px;" />
+
+            <ul style="margin-left:80px;">
+              <li class="text-white">Фотоволтаици</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Индивидуални објекти</li>
+                  <li>Колективни станбени згради</li>
+                  <li>Јавни објекти</li>
+                  <li>Деловно-трговски објекти</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Индустриски објекти</li>
+                  <li>ПП3 елаборати</li>
+                </ul>
+              </div>
+            </div>
+            <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:15px;" />
+
+            <ul style="margin-left:80px;">
+              <li class="text-white"><u>Објекти со високоградба</u></li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>На објекти</li>
+                  <li>На зграда</li>
+                </ul>
+              </div>
+            </div>
+
+            <h4 class="heroFont" style="margin-left:100px; margin-top:40px;">PROEKTI</h4>
+
+            <div style="margin-left:120px; margin-top:25px;">Проект #1</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 70%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:50%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 50%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:30%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 30%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:15%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 10%;">Проект #5</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity: 10%;" />
+
+            <div class="text-center" style="margin-top:35px;"><a class="btn"
+                style="background-color:#FFDD9B; color:black;" href="/proektiranjeNadzorRevizija.html">Види повеќе</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-0">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card-body text-white" style="background-color: #6E3F48;">
+
+            <h3 class="heroFont" style="margin-left:100px; margin-top:50px;">URBANISTI:KO PLANIRAWE<br> </h3>
+            <hr
+              style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:50px; margin-bottom:30px;" />
+
+            <ul style="margin-left:80px;">
+              <li>Детален урбанистички план</li>
+            </ul>
+
+            <!-- <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Патишта</li>
+                  <li>Мостови</li>
+                  <li>Сообрајќајници</li>
+                  <li>Водовод</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div>
+            </div> -->
+            <hr
+              style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:30px; margin-bottom:30px;" />
+
+            <ul style="margin-left:80px;">
+              <li class="text-white">Урбанистички планови</li>
+            </ul>
+
+            <!-- <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Индивидуални објекти</li>
+                  <li>Колективни станбени згради</li>
+                  <li>Јавни објекти</li>
+                  <li>Деловно-трговски објекти</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Индустриски објекти</li>
+                  <li>ПП3 елаборати</li>
+                </ul>
+              </div>
+            </div> -->
+
+            <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:30px;" />
+
+            <ul style="margin-left:80px;">
+              <li class="text-white">УПС</li>
+            </ul>
+
+            <!-- <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>На објекти</li>
+                  <li>На зграда</li>
+                </ul>
+              </div>
+            </div> -->
+
+            <h4 class="heroFont" style="margin-left:100px; margin-top:40px;">PROEKTI</h4>
+
+            <div style="margin-left:120px; margin-top:25px;">Проект #1</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 70%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:50%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 50%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:30%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 30%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:15%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 10%;">Проект #5</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity: 10%;" />
+
+            <div class="text-center" style="margin-top:35px;"><a class="btn"
+                style="background-color:#FFDD9B; color:black;" href="/urbanistickoPlaniranje.html">Види повеќе</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-0">
+        <div class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="card-body text-white" style="background-color: #6E3F48;">
+
+            <h3 class="heroFont" style="margin-left:100px; margin-top:50px;">ENERGETSKA<br> EFIKASNOST</h3>
+            <hr
+              style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:50px; margin-bottom:30px;" />
+
+            <ul style="margin-left:80px;">
+              <li>Елаборати за енергетска ефикасност</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                  <li>Изработуваме елаборати за енергетска ефикасност на сите видови објекти.</li>
+                </ul>
+              </div>
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div> -->
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div> -->
+            </div>
+            <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:20px;" />
+
+            <ul style="margin-left:80px;">
+              <li>Потврди за енергетска ефикасност</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                  <li>Издаваме потрврди за енергетска ефикасност со која се потврдува дека <br>
+                    минималните барања за енергетска ефикасност кои се содржина во основниот<br>
+                    проект се во согласност со минималните барања за енергетска ефикасност.</li>
+                </ul>
+              </div>
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div> -->
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div> -->
+            </div>
+
+            <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:70px;" />
+
+            <ul style="margin-left:80px;">
+              <li>Енергетска контрола</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                  <li>Вршиме енергетска контрола, со која се врши проверка на имплементацијата на одредбите од<br>
+                    правилникот за енергетски карактеристики на зградите согласно правилникот за енергетска
+                    ефикасност.<br>
+                    Предмет на енергетската контрола се згради и градежни единици со сите помошни постојки и опрема,<br>
+                    вклучувајќи и системи за греење и климатизација, како и индустриски процеси кои се одвиваат во
+                    нив.<br>
+                    Со енергетската контрола се утврдува ефикасноста при користење наенергијата, како и моностите за<br>
+                    намалување на потрошувачката на енергија и осварување на заштеди.</li>
+                </ul>
+              </div>
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div> -->
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div> -->
+            </div>
+
+            <h4 class="heroFont" style="margin-left:100px; margin-top:40px;">PROEKTI</h4>
+
+            <div style="margin-left:120px; margin-top:25px;">Проект #1</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 70%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:50%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 50%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:30%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 30%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:15%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 10%;">Проект #5</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity: 10%;" />
+
+            <div class="text-center" style="margin-top:35px;"><a class="btn"
+                style="background-color:#FFDD9B; color:black;" href="/energetskaEfikasnost.html">Види повеќе</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-0">
+        <div class="collapse multi-collapse" id="multiCollapseExample4">
+          <div class="card-body text-white" style="background-color: #6E3F48;">
+
+            <h3 class="heroFont" style="margin-left:100px; margin-top:50px;">PROCENKI<br></h3>
+            <hr
+              style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:50px; margin-bottom:20px;" />
+
+            <ul style="margin-left:80px;">
+              <li>Недвижен имот</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                  <li>Вршиме проценки на индивидуални станбени објекти, колективни станбени<br>
+                    објекти, производни погони, инфраструктурни објекти, градежно земјиште и друго.</li>
+                </ul>
+              </div>
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div> -->
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div> -->
+            </div>
+            <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:15px;" />
+
+            <ul style="margin-left:80px;">
+              <li>Подвижен имот</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                  <li>Вршиме проценка на сите категории на подвижен имот.</li>
+                </ul>
+              </div>
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div> -->
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div> -->
+            </div>
+
+            <hr style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:15px;" />
+
+            <ul style="margin-left:80px;">
+              <li>Транспортни средства</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                  <li>Вршиме проценка на сите видови патнички возила, товарни возила, специјални<br> возила и друго.
+                  </li>
+                </ul>
+              </div>
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div> -->
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div> -->
+            </div>
+            <hr
+              style="border-color: rgb(255, 246, 229); width: 20%; margin-left: 100px; margin-top:15px; margin-bottom:20px;" />
+            <ul style="margin-left:80px;">
+              <li>Машини и опрема</li>
+            </ul>
+
+            <div class="text-white row" style="margin-left:50px; font-size:14px;">
+              <div class="">
+                <ul style="list-style:none; margin-left:31px;">
+                  <li>Вршиме проценка на сите категории на машини и опрема.</li>
+                </ul>
+              </div>
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Фекална канализација</li>
+                  <li>Атмосферска канализација</li>
+                  <li>Пречистителни станици</li>
+                  <li>Пумпни станици</li>
+                </ul>
+              </div> -->
+              <!-- <div class="col-md-3">
+                <ul style="list-style:none">
+                  <li>Далекуводи</li>
+                  <li>Регулација на речни корита</li>
+                  <li>Депонии</li>
+                  <li>ПТТ и оптички кабли</li>
+                </ul>
+              </div> -->
+            </div>
+
+            <h4 class="heroFont" style="margin-left:100px; margin-top:40px;">PROEKTI</h4>
+
+            <div style="margin-left:120px; margin-top:25px;">Проект #1</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 70%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:50%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 50%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:30%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 30%;">Проект #4</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity:15%;" />
+
+            <div style="margin-left:120px; margin-top:25px; opacity: 10%;">Проект #5</div>
+            <hr style="border-color: rgb(255, 246, 229); width: 80%; margin-left: 100px; opacity: 10%;" />
+
+            <div class="text-center" style="margin-top:35px;"><a class="btn"
+                style="background-color:#FFDD9B; color:black;" href="/procenki.html">Види повеќе</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kontakt -->
+
+    <h5 style="color: rgb(255, 246, 229); margin-bottom: 1px; margin-top:150px;">
+      Контакт
+      <hr style="border-color: rgb(255, 246, 229)" />
+    </h5>
+
+    <h1 style="color: rgb(255, 246, 229); font-weight:700;">
+      Стапи во контакт <bold style="color: #FFDD9B; font-weight:700;">со нас</bold> -
+    </h1>
+
+    <h1 style="color: rgb(255, 246, 229); font-weight:700; margin-bottom:100px;">
+      Добиј го <bold style="color: #FFDD9B; font-weight:700;">идеалното</bold> решение
+    </h1>
+
+    <!-- FOOTER  -->
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center pb-3">
+        <li class="nav-item text-white text-center">
+          <p class="px-5">
+            <bold>Телефон</bold><br>
+          </p>
+          <p class="px-5 text-muted text-center">070 35 67 76</p>
+          <p class="px-5 text-muted text-center">070 20 89 98</p>
+          <p class="px-5 text-muted text-center">048 41 19 53</p>
+
+        </li>
+        <li class="nav-item text-white text-center">
+          <p class="px-5">
+            <bold>Адреса</bold>
+          </p>
+          <p class="px-5 text-muted text-center">Ул. „Андон Слабејко“ <br>бр. 467500 - Прилеп,<br> Македонија</p>
+        </li>
+        <li class="nav-item text-white text-center">
+          <p class="px-5">
+            <bold>Маил</bold>
+          </p>
+          <p class="px-5 text-muted text-center">genpro@t-home.mk</p>
+          <p class="px-5 text-muted text-center">genprodoo@gmail.com
+          </p>
+        </li>
+      </ul>
+      <p class="text-center text-muted" style="margin-top:80px;">© 2022 Генико. Сите права се задржани </p>
+
+    </footer>
+    <!-- End of footer -->
+
+    <!-- End of Kontakt -->
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.uslugiBtn').click(function () {
+        $('.multi-collapse').collapse('hide');
+        $($(this).attr('href')).collapse('show');
+      });
+    });
+  </script>
+
+  <script>
+    var buttons = document.querySelectorAll('.uslugiBtn');
+
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        buttons.forEach(function (btn) {
+          btn.classList.remove('active');
+          btn.style.backgroundColor = '#1E1E1E';
+          btn.style.borderColor = '#6E3F48';
+        });
+        this.classList.add('active');
+        this.style.backgroundColor = '#6F4049';
+        this.style.borderColor = '#6F4049';
+      });
+    });
+  </script>
+
+  <script>
+
+  </script>
+</body>
+
+</html>

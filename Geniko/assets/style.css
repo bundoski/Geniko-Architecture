@@ -1,0 +1,63 @@
+
+@font-face{
+  font-family: "genikoFont";
+  src: url("fonts/genikoFont.ttf");
+}
+
+.heroFont{
+  font-family: "genikoFont";  
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1E1E1E;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(131, 131, 131)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(131, 131, 131);
+} 
+
+.whatWeDo {
+  margin-top: 20px;
+}
+
+.whatWeDo .row {
+  margin-top: 10%;
+  margin-left:30%;
+}
+
+.card{
+  background-color:rgb(61, 61, 61);
+}
+
+.card-text {
+  color: #fff; /* replace #fff with your desired text color */
+}
+
+.img-fluid {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.rounded-img{
+  border-radius:100%;
+}
+
+.bg-white {
+  width: 200px; /* adjust the width as necessary */
+  height: 200px; /* adjust the height as necessary */
+  border-radius: 50%;
+}
+
+.btn.active{
+  background-color:red;
+}
